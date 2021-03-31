@@ -1,0 +1,57 @@
+% 导言区 
+\documentclass{article}
+\usepackage{ctex} % 中文处理宏包  
+% 正文区 （文稿区 ） 
+\begin{document}
+	\section{空白符号 }
+	cat 	cat 	cat 	cat 
+	
+	“起空白名方法:复制括号内字符( )重复了就加几个空格。 	cat 	cat                         相信很多人都会用度娘找改空白名的方法,但大部分都是找到那种用星座或表情符号等,改完以后才发现浪费改名卡了,又要重新改!因为别人看你的空白名都是问号,拜某度所赐这种改错的总数上可能比空白名都要多。 我们复制别人的空白名为什么用不了
+		% 1em(当前字体中M的宽度 )
+	a\quad b 
+	% 2em
+	a\qquad b 
+	
+	%约为 1/6 个 em 
+	a\,b a\thinspace b 
+	
+	% 0.5 个em 
+	a\enspace b 
+	
+	% 空格 
+	a\ b  
+	
+	% 硬空格 
+	a~b 
+	
+	ccccc
+	% 1pc=12pt=4.218mm  
+	
+	a\kern 1pc b 
+	a\kern -1em b 
+	a\hskip 1em b 
+	a\hspace{35pt}b 
+	
+	% 占位宽度 
+	a\hphantom{xyz}b  
+	
+	% 弹性长度 
+	a\hfill b 
+	
+	
+	\section{ \LaTeX 控制符}
+\# \$ \% \{   \}  \~{}  \_{}  \^{}  \textbackslash  
+
+\&  
+	
+	
+		\section{排版符号 }
+	\section{\TeX 标志符号}
+	\section{引号 }
+		` '  ``  ''  ``  你好 ''  
+
+	\section{连字符 }
+- -- --- 
+
+	
+\end{document}

@@ -1,46 +1,30 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.4)  30 MAR 2021 22:17
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.4)  31 MAR 2021 12:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**latexTextFormat.tex
-(./latexTextFormat.tex
+**latexFloat.tex
+(./latexFloat.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06>
-(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
-)
-\c@part=\count163
-\c@section=\count164
-\c@subsection=\count165
-\c@subsubsection=\count166
-\c@paragraph=\count167
-\c@subparagraph=\count168
-\c@figure=\count169
-\c@table=\count170
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen134
-)
-(/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/ctex.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/ctexart.cls
 (/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2020-03-06 L3 programming layer (loader) 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
 File: l3backend-xdvipdfmx.def 2020-03-12 L3 backend support: xdvipdfmx
-\g__graphics_track_int=\count171
+\g__graphics_track_int=\count163
 \l__pdf_internal_box=\box45
-\g__pdf_backend_object_int=\count172
-\g__pdf_backend_annotation_int=\count173
+\g__pdf_backend_object_int=\count164
+\g__pdf_backend_annotation_int=\count165
 ))
-Package: ctex 2019/05/29 v2.4.16 Chinese adapter in LaTeX (CTEX)
- (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Document Class: ctexart 2019/05/29 v2.4.16 Chinese adapter for class article (C
+TEX)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2020-03-06 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count174
-\g__xparse_grabber_int=\count175
-\l__xparse_m_args_int=\count176
-\l__xparse_v_nesting_int=\count177
+\l__xparse_current_arg_int=\count166
+\g__xparse_grabber_int=\count167
+\l__xparse_m_args_int=\count168
+\l__xparse_v_nesting_int=\count169
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2020-03-06 LaTeX2e option processing using LaTeX3 keys
@@ -60,14 +44,31 @@ LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
-\l__ctex_tmp_int=\count178
+\l__ctex_tmp_int=\count170
 \l__ctex_tmp_box=\box46
-\l__ctex_tmp_dim=\dimen135
-\g__ctex_section_depth_int=\count179
-\g__ctex_font_size_int=\count180
+\l__ctex_tmp_dim=\dimen134
+\g__ctex_section_depth_int=\count171
+\g__ctex_font_size_int=\count172
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
 File: ctexopts.cfg 2019/05/29 v2.4.16 Option configuration file (CTEX)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count173
+\c@section=\count174
+\c@subsection=\count175
+\c@subsubsection=\count176
+\c@paragraph=\count177
+\c@subparagraph=\count178
+\c@figure=\count179
+\c@table=\count180
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen135
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
 File: ctex-engine-xetex.def 2019/05/29 v2.4.16 XeLaTeX adapter (CTEX)
@@ -202,14 +203,18 @@ Package: zhnumber 2019/04/07 v2.7 Typesetting numbers with Chinese glyphs
 (/usr/local/texlive/2020/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2019/04/07 v2.7 Chinese numerals with UTF8 encoding
 ))
-(/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese.d
-ef
-File: ctex-scheme-chinese.def 2019/05/29 v2.4.16 Chinese scheme for generic (CT
-EX)
- (/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+\l__ctex_heading_skip=\skip60
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-a
+rticle.def
+File: ctex-scheme-chinese-article.def 2019/05/29 v2.4.16 Chinese scheme for art
+icle (CTEX)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
 File: ctex-name-utf8.cfg 2019/05/29 v2.4.16 Caption with encoding UTF8 (CTEX)
-)) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/indentfirst.sty
-Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/ctex-c5size.clo
+File: ctex-c5size.clo 2019/05/29 v2.4.16 c5size option (CTEX)
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.
 def
@@ -242,8 +247,22 @@ Package fontspec Info: Font family 'FandolSong-Regular(0)' created for font
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2019/05/29 v2.4.16 Configuration file (CTEX)
 )
-(./latexTextFormat.aux)
-\openout1 = `latexTextFormat.aux'.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
+(./latexFloat.aux)
+\openout1 = `latexFloat.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
@@ -320,137 +339,37 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.53937> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 8.
+)
+Runaway argument?
+scale=0.3]{a} \end {figure} \LaTeX {} 中的表格: \begin {table} 内\ETC.
+! File ended while scanning use of \Gin@iii.
+<inserted text> 
+                \par 
+<*> latexFloat.tex
+                  
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
 
+! Emergency stop.
+<*> latexFloat.tex
+                  
+*** (job aborted, no legal \end found)
 
-Package fontspec Warning: Font "FandolHei-Regular" does not contain requested
-(fontspec)                Script "CJK".
-
-
-Package fontspec Info: Font family 'FandolHei-Regular(0)' created for font
-(fontspec)             'FandolHei-Regular' with options
-(fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolHei-Bold}
-].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolHei-Regular.otf]/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[FandolHei-Bold.otf]/OT:language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-
-
-Package fontspec Warning: Font "FandolFang-Regular" does not contain requested
-(fontspec)                Script "CJK".
-
-
-Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
-(fontspec)             'FandolFang-Regular' with options
-(fontspec)             [Script={CJK},Extension={.otf}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolFang-Regular.otf]/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 36.
-
-Package fontspec Warning: Font "FandolSong-Regular" does not contain requested
-(fontspec)                Script "CJK".
-
-
-Package fontspec Info: Font family 'FandolSong-Regular(1)' created for font
-(fontspec)             'FandolSong-Regular' with options
-(fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolSong-Bold
-}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolSong-Regular.otf]/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[FandolSong-Bold.otf]/OT:language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-
-
-Package fontspec Warning: Font "FandolHei-Regular" does not contain requested
-(fontspec)                Script "CJK".
-
-
-Package fontspec Warning: Font "FandolFang-Regular" does not contain requested
-(fontspec)                Script "CJK".
-
-
-Package fontspec Warning: Font "FandolKai-Regular" does not contain requested
-(fontspec)                Script "CJK".
-
-
-Package fontspec Info: Font family 'FandolKai-Regular(0)' created for font
-(fontspec)             'FandolKai-Regular' with options
-(fontspec)             [Script={CJK},Extension={.otf}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolKai-Regular.otf]/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
-
-LaTeX Font Warning: Font shape `TU/FandolFang-Regular(0)/b/n' undefined
-(Font)              using `TU/FandolFang-Regular(0)/m/n' instead on input line 
-54.
-
-
-LaTeX Font Warning: Font shape `TU/FandolFang-Regular(0)/m/it' undefined
-(Font)              using `TU/FandolFang-Regular(0)/m/n' instead on input line 
-55.
-
-
-Overfull \hbox (40.21161pt too wide) in paragraph at lines 54--67
-\TU/lmtt/m/n/8 Hello  \TU/lmtt/m/n/9 Hello  \TU/lmtt/m/n/10 Hello  \TU/lmtt/m/n
-/12 Hello  \TU/lmtt/m/n/14.4 Hello  \TU/lmtt/m/n/17.28 Hello  \TU/lmtt/m/n/20.7
-4 Hello  \TU/lmtt/m/n/24.88 Hello
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
-
- []
-
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.53937> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 73.
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-[1
-
-] (./latexTextFormat.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 6398 strings out of 479418
- 191849 string characters out of 5884586
- 467074 words of memory out of 5000000
- 23847 multiletter control sequences out of 15000+600000
- 532780 words of font info for 67 fonts, out of 8000000 for 9000
+ 7155 strings out of 479418
+ 208540 string characters out of 5884586
+ 488462 words of memory out of 5000000
+ 24633 multiletter control sequences out of 15000+600000
+ 533456 words of font info for 40 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 58i,4n,81p,355b,292s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on latexTextFormat.pdf (1 page).
+ 58i,3n,81p,371b,247s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.

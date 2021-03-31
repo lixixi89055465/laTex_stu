@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.4)  30 MAR 2021 22:17
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.4)  31 MAR 2021 10:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**latexTextFormat.tex
-(./latexTextFormat.tex
+**latexSpecialChar.tex
+(./latexSpecialChar.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06>
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
@@ -211,6 +211,9 @@ File: ctex-name-utf8.cfg 2019/05/29 v2.4.16 Caption with encoding UTF8 (CTEX)
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/ctex-c5size.clo
+File: ctex-c5size.clo 2019/05/29 v2.4.16 c5size option (CTEX)
+)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.
 def
 File: ctex-fontset-fandol.def 2019/05/29 v2.4.16 Fandol fonts definition (CTEX)
@@ -242,215 +245,101 @@ Package fontspec Info: Font family 'FandolSong-Regular(0)' created for font
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2019/05/29 v2.4.16 Configuration file (CTEX)
 )
-(./latexTextFormat.aux)
-\openout1 = `latexTextFormat.aux'.
+(./latexSpecialChar.aux)
+\openout1 = `latexSpecialChar.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 7.
+LaTeX Info: Redefining \selectfont on input line 5.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 7.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 7.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 7.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 7.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 7.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 7.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 7.
-LaTeX Font Info:    Redeclaring math accent \check on input line 7.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 7.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 7.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 7.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 7.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 5.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 5.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 5.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 5.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 5.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 5.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 5.
+LaTeX Font Info:    Redeclaring math accent \check on input line 5.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 5.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 5.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 5.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 5.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 7.
+(Font)              `operators' in the math version `normal' on input line 5.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 7.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 5.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 7.
+(Font)              `operators' in the math version `bold' on input line 5.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 7.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 5.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 7.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 5.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 7.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 5.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 7.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 5.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 7.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 5.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 7.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 5.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 7.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 5.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 7.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 5.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 7.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 5.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 7.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <15.05624> on input line 42.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12.045> on input line 42.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9.03374> on input line 42.
+ [1
 
-
-Package fontspec Warning: Font "FandolHei-Regular" does not contain requested
-(fontspec)                Script "CJK".
-
-
-Package fontspec Info: Font family 'FandolHei-Regular(0)' created for font
-(fontspec)             'FandolHei-Regular' with options
-(fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolHei-Bold}
-].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolHei-Regular.otf]/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[FandolHei-Bold.otf]/OT:language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-
-
-Package fontspec Warning: Font "FandolFang-Regular" does not contain requested
-(fontspec)                Script "CJK".
-
-
-Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
-(fontspec)             'FandolFang-Regular' with options
-(fontspec)             [Script={CJK},Extension={.otf}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolFang-Regular.otf]/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 36.
-
-Package fontspec Warning: Font "FandolSong-Regular" does not contain requested
-(fontspec)                Script "CJK".
-
-
-Package fontspec Info: Font family 'FandolSong-Regular(1)' created for font
-(fontspec)             'FandolSong-Regular' with options
-(fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolSong-Bold
-}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolSong-Regular.otf]/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[FandolSong-Bold.otf]/OT:language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-
-
-Package fontspec Warning: Font "FandolHei-Regular" does not contain requested
-(fontspec)                Script "CJK".
-
-
-Package fontspec Warning: Font "FandolFang-Regular" does not contain requested
-(fontspec)                Script "CJK".
-
-
-Package fontspec Warning: Font "FandolKai-Regular" does not contain requested
-(fontspec)                Script "CJK".
-
-
-Package fontspec Info: Font family 'FandolKai-Regular(0)' created for font
-(fontspec)             'FandolKai-Regular' with options
-(fontspec)             [Script={CJK},Extension={.otf}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolKai-Regular.otf]/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
-
-LaTeX Font Warning: Font shape `TU/FandolFang-Regular(0)/b/n' undefined
-(Font)              using `TU/FandolFang-Regular(0)/m/n' instead on input line 
-54.
-
-
-LaTeX Font Warning: Font shape `TU/FandolFang-Regular(0)/m/it' undefined
-(Font)              using `TU/FandolFang-Regular(0)/m/n' instead on input line 
-55.
-
-
-Overfull \hbox (40.21161pt too wide) in paragraph at lines 54--67
-\TU/lmtt/m/n/8 Hello  \TU/lmtt/m/n/9 Hello  \TU/lmtt/m/n/10 Hello  \TU/lmtt/m/n
-/12 Hello  \TU/lmtt/m/n/14.4 Hello  \TU/lmtt/m/n/17.28 Hello  \TU/lmtt/m/n/20.7
-4 Hello  \TU/lmtt/m/n/24.88 Hello
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
-
- []
-
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.53937> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 73.
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-[1
-
-] (./latexTextFormat.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+]
+(./latexSpecialChar.aux) ) 
 Here is how much of TeX's memory you used:
- 6398 strings out of 479418
- 191849 string characters out of 5884586
- 467074 words of memory out of 5000000
- 23847 multiletter control sequences out of 15000+600000
- 532780 words of font info for 67 fonts, out of 8000000 for 9000
+ 6303 strings out of 479418
+ 188537 string characters out of 5884586
+ 467431 words of memory out of 5000000
+ 23778 multiletter control sequences out of 15000+600000
+ 535310 words of font info for 50 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 58i,4n,81p,355b,292s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,4n,81p,372b,247s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on latexTextFormat.pdf (1 page).
+Output written on latexSpecialChar.pdf (1 page).

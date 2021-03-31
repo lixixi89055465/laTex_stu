@@ -1,5 +1,5 @@
 % 导言区 
-\documentclass{article}
+\documentclass[20pt]{article}
 
 \usepackage{ctex} 
 % 正文区 （文稿区） 
@@ -10,8 +10,7 @@
 	\textrm{Roman family908090} 
 	78789789jljlkjlkjl
 	\rmfamily Roman Family0000
-	
-	% 无衬线字体、打字机字体 
+% 无衬线字体、打字机字体 
 	\textsf{Sans Serif Family} 
 	\texttt{Typewriter Family} 
 	00000000000
@@ -48,15 +47,15 @@
 
 %中文字体 
 {\songti 宋体 }
-\quad {\heiti 黑体 }
+\quad {\heiti 黑体111 }
 \quad{\fangsong 仿宋}
 \quad{\kaishu 楷书 }
 
 中文字体的\textbf{粗体}
 \textit{斜体} 
 字体大小 
-{\tiny		Hello }
-{\scriptsize 		Hello }
+{\tiny		Hello }\\
+{\scriptsize 		Hello }\\
 {\footnotesize 		Hello }
 {\small		Hello }
 {\normalsize 		Hello }
@@ -67,7 +66,13 @@
 {\Huge		Hello }
 
 %中文字号设置命令
-\zihao{-1} 你好  !   
-\zihao{5} 你好  ! 
+\zihao{-1} 你好aaaaa  !   \\
+\zihao{5} 你好  ! \\
+
+\newcommand{\myfont}{\textbf{\textbf{Fancy text}}}
+\myfont 我是多大啊\\
+
+
+
 
 \end{document}
